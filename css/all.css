@@ -352,7 +352,7 @@ footer {
 }
 
 .container {
-  height: 100%;
+  height: 80%;
 }
 
 @media (min-width: 12.5em) {
@@ -430,7 +430,8 @@ footer {
 }
 
 header {
-  background-image: url(/img/header-img-precomp.png);
+	background:linear-gradient(rgba(0,0,3,0.8), rgba(0,0,3,0.1)), url(../img/header-background.jpg);
+	/* background-image: url(../img/header-background.jpg); */
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -603,7 +604,7 @@ nav {
   height: 70px;
   width: 70px;
   overflow: hidden;
-  background-image: url(/img/cross.png);
+  background-image: url(../img/cross.png);
   background-repeat: no-repeat;
   z-index: 1000;
   cursor: pointer;
@@ -618,8 +619,8 @@ nav {
   height: 200px;
   width: 200px;
   margin-top: 2em;
-  background: url("/img/profile-pic.png") center center no-repeat;
-  background: url("/img/profile-pic.png") center center no-repeat;
+  background: url(../img/profile-pic.png) center center no-repeat;
+  background: url(../img/profile-pic.png) center center no-repeat;
 }
 
 #about-para {
@@ -815,7 +816,7 @@ img:hover {
 }
 
 .container {
-  height: 100%;
+  height: 50%;
 }
 
 @media (min-width: 12.5em) {
@@ -892,23 +893,16 @@ img:hover {
   letter-spacing: 0.075em;
 }
 
-/* Change background image here! */
-header {
-  background-image: url(/img/header-img-precomp.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 @media (min-width: 12.5em) {
   header {
-    height: 100%;
+    height: 60%;
     padding-bottom: 2em;
   }
 }
 
 @media (min-width: 63em) {
   header {
-    height: 100vh;
+    height:  60vh;
     background-attachment: fixed;
   }
 }
@@ -1068,7 +1062,7 @@ nav {
   height: 70px;
   width: 70px;
   overflow: hidden;
-  background-image: url(/img/cross.png);
+  background-image: url(../img/cross.png);
   background-repeat: no-repeat;
   z-index: 1000;
   cursor: pointer;
