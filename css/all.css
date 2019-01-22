@@ -14,6 +14,10 @@ body {
   margin: 0;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 article,
 aside,
 details,
@@ -114,7 +118,7 @@ svg:not(:root) {
   overflow: hidden;
 }
 
-figure {
+figure.icons {
   margin: 30px 30px;
 }
 
@@ -676,7 +680,7 @@ nav {
 }
 
 @media (min-width: 12.5em) {
-  figure {
+  figure.icons {
     width: 100%;
     padding-right: 5px;
     /* overflow: hidden; */
@@ -684,19 +688,19 @@ nav {
 }
 
 @media (min-width: 30em) {
-  figure {
+  figure.icons {
     width: 50%;
   }
 }
 
 @media (min-width: 47.5em) {
-  figure {
+  figure.icons {
     width: 35%;
   }
 }
 
 @media (min-width: 63em) {
-  figure {
+  figure.icons {
     height: 260px;
     width: 260px;
   }
