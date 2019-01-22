@@ -18,16 +18,16 @@ $(document).ready(function() {
 $(document).ready(function() {
   $('.about').click(function() {
     $('html, body').animate({
-      scrollTop: $('.self-pic').offset().top
+      scrollTop: $('.about-me').offset().top
     }, 1200);
   });
 });
 
 //Portfolio Link going to flexbox portfolio section
 $(document).ready(function() {
-  $('.work').click(function() {
+  $('.projects').click(function() {
     $('html, body').animate({
-      scrollTop: $('.flex').offset().top
+      scrollTop: $("#projects").offset().top
     }, 1200);
   });
 });
@@ -64,7 +64,7 @@ $(document).ready(function() {
       $('#img1').css("opacity", "1")
     }
   });
-  $('#one, #two, #three, #four, #five, #six').on({
+  $('#one, #two, #three, #four, #five, #six, #seven').on({
     mouseleave: function(){
     $('figcaption').css("height", "0px")
     $('figcaption').css("opacity", "0")
@@ -114,6 +114,24 @@ $(document).ready(function() {
     mouseenter: function(){
       $('#img6').css("height", "75px")
       $('#img6').css("opacity", "1")
+    }
+  })
+});
+
+$(document).ready(function() {
+  $('#seven').on({
+    mouseenter: function(){
+      $('#img7').css("height", "75px")
+      $('#img7').css("opacity", "1")
+    }
+  })
+});
+
+$(document).ready(function() {
+  $('#eight').on({
+    mouseenter: function(){
+      $('#img8').css("height", "75px")
+      $('#img8').css("opacity", "1")
     }
   })
 });
