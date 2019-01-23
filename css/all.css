@@ -701,8 +701,8 @@ nav {
 
 @media (min-width: 63em) {
   figure.icons {
-    height: 260px;
-    width: 260px;
+    height: 220px;
+    width: 220px;
   }
 }
 
@@ -714,18 +714,18 @@ nav {
 
 @media (min-width: 63em) {
   img {
-    height: 260px;
-    width: 260px;
+    height: 220px;
+    width: 220px;
   }
 }
 
-img.icon:hover {
+/* img.icon:hover {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
-}
+} */
 
 .overlay {
-  width: 300px;
+  width: 220px;
   height: 0;
   z-index: 99;
   opacity: 0;
