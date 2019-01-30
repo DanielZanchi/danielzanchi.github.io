@@ -1,188 +1,214 @@
 <!DOCTYPE html>
 <html prefix="og: http://ogp.me/ns#" lang="en">
-  <head>
-    <title>Daniel Zanchi</title>
-    <meta charset="UTF-8">
-    <!-- Facebook meta tags-->
-    <meta property="og:title" content="Daniel Zanchi">
-    <meta property="og:image" content="">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Daniel Zanchi">
-    <!-- Responsive meta tag-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-compatible" content="IE=Edge">
-    <meta name="robots" content="index, follow">
-    <!-- Description and keywords for search engines-->
-    <meta name="description" content="Daniel Zanchi Developer Website">
-    <meta name="keywords" content="Daniel Zanchi">
-    <meta name="msapplication-TileColor" content="#cdcec0">
-    <meta name="msapplication-TileImage" content="/mstile-144x144.png">
-    <meta name="theme-color" content="#ffffff">
-    <!-- Style sheets-->
-    <link rel="stylesheet" href="css/all.css">
-    <!-- font link here, change to another google font if you wish!-->
-    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,700" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <!-- begin favicon stuff-->
-    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
-    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192">
-    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
-    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
-    <link rel="manifest" href="/manifest.json">
-    <script src="js/jquery-2.1.4.min.js"></script>
-  </head>
-  <body>
-    <header>
-      <div class="overlay-nav hidden">
+	<head>
+		<title>Daniel Zanchi</title>
+		<meta charset="UTF-8">
+		<!-- Facebook meta tags-->
+		<meta property="og:title" content="Daniel Zanchi">
+		<meta property="og:image" content="">
+		<meta property="og:type" content="website">
+		<meta property="og:site_name" content="Daniel Zanchi">
+		<!-- Responsive meta tag-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-compatible" content="IE=Edge">
+		<meta name="robots" content="index, follow">
+		<!-- Description and keywords for search engines-->
+		<meta name="description" content="Daniel Zanchi Developer Website">
+		<meta name="keywords" content="Daniel Zanchi">
+		<meta name="msapplication-TileColor" content="#cdcec0">
+		<meta name="msapplication-TileImage" content="/mstile-144x144.png">
+		<meta name="theme-color" content="#ffffff">
+		<!-- Style sheets-->
+		<link rel="stylesheet" href="css/all.css">
+		<!-- font link here, change to another google font if you wish!-->
+		<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,700" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+		<!-- begin favicon stuff-->
+		<link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+		<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+		<link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192">
+		<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+		<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+		<link rel="manifest" href="/manifest.json">
+		<script src="js/jquery-2.1.4.min.js"></script>
+
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async="async" src="https://www.googletagmanager.com/gtag/js?id=UA-133520291-1"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag('js', new Date());
+
+			gtag('config', 'UA-133520291-1');
+		</script>
+
+	</head>
+	<body>
+		<header>
+			<div class="overlay-nav hidden">
 				<ul class="mobile">
-          <li><a href="#" class="projects">PROJECTS</a></li>
-        </ul>
-        <ul class="mobile">
-          <li><a href="#" class="about">ABOUT</a></li>
-        </ul>
-        <ul class="mobile">
-          <li><a href="#" class="contact-nav">CONTACT</a></li>
-        </ul>
-        <div class="close"></div>
-      </div>
-      <div class="container">
-        <div id="logo">DANIEL ZANCHI</div>
-        <nav><a id="toggle" href="#"><i class="fa fa-bars fa-2x"></i></a>
+					<li>
+						<a href="#" class="projects">PROJECTS</a>
+					</li>
+				</ul>
+				<ul class="mobile">
+					<li>
+						<a href="#" class="about">ABOUT</a>
+					</li>
+				</ul>
+				<ul class="mobile">
+					<li>
+						<a href="#" class="contact-nav">CONTACT</a>
+					</li>
+				</ul>
+				<div class="close"></div>
+			</div>
+			<div class="container">
+				<div id="logo">DANIEL ZANCHI</div>
+				<nav>
+					<a id="toggle" href="#">
+						<i class="fa fa-bars fa-2x"></i>
+					</a>
 					<ul class="in">
-            <li><a href="#" class="projects">PROJECTS</a></li>
-          </ul>
-          <ul class="in">
-            <li><a href="#" class="about">ABOUT</a></li>
-          </ul>
-          <ul class="in">
-            <li><a href="#" class="contact-nav">CONTACT</a></li>
-          </ul>
-        </nav>
-        <h1 id="jumbotron">I'M DANIEL ZANCHI</h1>
-        <h2 id="supporting-header">I'm just an ordinary 25 year-old guy that thinks outside the box</h2></h2>
-      </div>
-    </header>
-    <section>
-      <h2 id="projects" class="port">My Projects</h2>
-      <div class="container">
-        <div class="flex">
-          <figure id="one" class="icons">
-            <figcaption id="img1" class="overlay">Fake Posts Creator</figcaption><a href="https://itunes.apple.com/it/app/fake-posts-creator/id1178459695?mt=8" target="_blank"><img class="icon" src="img/facebook-icon.jpg" alt=""></a>
-          </figure>
-          <figure id="two" class="icons">
-            <figcaption id="img2" class="overlay">Feed Daniel</figcaption><a href="https://itunes.apple.com/it/app/feed-daniel/id1185235004?mt=8" target="_blank"><img class="icon" src="img/feeddaniel-icon.jpg" alt=""></a>
-          </figure>
-          <figure id="three" class="icons">
-            <figcaption id="img3" class="overlay">Sticker Creator</figcaption><a href="https://itunes.apple.com/tr/app/stickers-creator/id1147094379?mt=8" target="_blank"><img class="icon" src="img/stickers-icon.jpg" alt=""></a>
-          </figure>
-					<figure id="four" class="icons">
-            <figcaption id="img4" class="overlay">TAP</figcaption><a href="https://github.com/DanielZanchi/progettoTAP" target="_blank"><img class="icon" src="img/tap-icon.png" alt=""></a>
-          </figure>
-          <figure id="four" class="icons">
-            <figcaption id="img4" class="overlay">Multiple Image Resizer</figcaption><a href="https://itunes.apple.com/it/app/multiple-image-resizer/id1097302501?mt=12" target="_blank"><img class="icon" src="img/multiimage-icon.jpg" alt=""></a>
-          </figure>
-          <figure id="five" class="icons">
-            <figcaption id="img5" class="overlay">Calculate your Tip</figcaption><a href="https://itunes.apple.com/us/app/calculate-your-tip/id1058823829?mt=8" target="_blank"><img class="icon" src="img/tip-icon.jpg" alt=""></a>
-          </figure>
-          <figure id="six" class="icons">
-            <figcaption id="img6" class="overlay">Tax Free Refund Calculator</figcaption><a href="https://itunes.apple.com/it/app/tax-free-refund-calculator-vat/id1064726737?mt=8" target="_blank"><img class="icon" src="img/taxfree-icon.png" alt=""></a>
-          </figure>
-					<figure id="seven" class="icons">
-            <figcaption id="img7" class="overlay">iShaver</figcaption><a href="https://itunes.apple.com/us/app/ishaver-prank-your-friends/id1093466723?mt=8" target="_blank"><img class="icon" src="img/razor-icon.png" alt=""></a>
-          </figure>
-					<figure id="eight" class="icons">
-            <figcaption id="img8" class="overlay">Arduino Automation System</figcaption><a href="https://sites.google.com/site/simulatedautomationsystem/" target="_blank"><img class="icon" src="img/arduino-icon.jpg" alt=""></a>
-          </figure>
-        </div>
-      </div>
-    </section>
-		<br />
-		<section class ="about-me">
-			<div class="container">
-				<h1 id ="aboutID" class="port">About Me</h1>
-				<div class="self-pic"></div>
-				<br />
-				<p>
-					I mainly develop iOS apps in Swift, I made all the design for my apps and i develop websites
-				</p>
-				<p>
-					I'm very curious and I love to improve my knowledge
-				</p><br />
+						<li>
+							<a href="#" class="projects">PROJECTS</a>
+						</li>
+					</ul>
+					<ul class="in">
+						<li>
+							<a href="#" class="about">ABOUT</a>
+						</li>
+					</ul>
+					<ul class="in">
+						<li>
+							<a href="#" class="contact-nav">CONTACT</a>
+						</li>
+					</ul>
+				</nav>
+				<h1 id="jumbotron">I'M DANIEL ZANCHI</h1>
+				<h2 id="supporting-header">I'm just an ordinary 25 year-old guy that thinks outside the box</h2>
+			</h2>
+		</div>
+	</header>
+	<section>
+		<h2 id="projects" class="port">My Projects</h2>
+		<div class="container">
+			<div class="flex">
+				<figure id="one" class="icons">
+					<figcaption id="img1" class="overlay">Fake Posts Creator</figcaption>
+					<a href="https://itunes.apple.com/it/app/fake-posts-creator/id1178459695?mt=8" target="_blank"><img class="icon" src="img/facebook-icon.jpg" alt=""></a>
+				</figure>
+				<figure id="two" class="icons">
+					<figcaption id="img2" class="overlay">Feed Daniel</figcaption>
+					<a href="https://itunes.apple.com/it/app/feed-daniel/id1185235004?mt=8" target="_blank"><img class="icon" src="img/feeddaniel-icon.jpg" alt=""></a>
+				</figure>
+				<figure id="three" class="icons">
+					<figcaption id="img3" class="overlay">Sticker Creator</figcaption>
+					<a href="https://itunes.apple.com/tr/app/stickers-creator/id1147094379?mt=8" target="_blank"><img class="icon" src="img/stickers-icon.jpg" alt=""></a>
+				</figure>
+				<figure id="four" class="icons">
+					<figcaption id="img4" class="overlay">TAP</figcaption>
+					<a href="https://github.com/DanielZanchi/progettoTAP" target="_blank"><img class="icon" src="img/tap-icon.png" alt=""></a>
+				</figure>
+				<figure id="four" class="icons">
+					<figcaption id="img4" class="overlay">Multiple Image Resizer</figcaption>
+					<a href="https://itunes.apple.com/it/app/multiple-image-resizer/id1097302501?mt=12" target="_blank"><img class="icon" src="img/multiimage-icon.jpg" alt=""></a>
+				</figure>
+				<figure id="five" class="icons">
+					<figcaption id="img5" class="overlay">Calculate your Tip</figcaption>
+					<a href="https://itunes.apple.com/us/app/calculate-your-tip/id1058823829?mt=8" target="_blank"><img class="icon" src="img/tip-icon.jpg" alt=""></a>
+				</figure>
+				<figure id="six" class="icons">
+					<figcaption id="img6" class="overlay">Tax Free Refund Calculator</figcaption>
+					<a href="https://itunes.apple.com/it/app/tax-free-refund-calculator-vat/id1064726737?mt=8" target="_blank"><img class="icon" src="img/taxfree-icon.png" alt=""></a>
+				</figure>
+				<figure id="seven" class="icons">
+					<figcaption id="img7" class="overlay">iShaver</figcaption>
+					<a href="https://itunes.apple.com/us/app/ishaver-prank-your-friends/id1093466723?mt=8" target="_blank"><img class="icon" src="img/razor-icon.png" alt=""></a>
+				</figure>
+				<figure id="eight" class="icons">
+					<figcaption id="img8" class="overlay">Arduino Automation System</figcaption>
+					<a href="https://sites.google.com/site/simulatedautomationsystem/" target="_blank"><img class="icon" src="img/arduino-icon.jpg" alt=""></a>
+				</figure>
 			</div>
-		</section>
-		<section class ="tools">
-			<div class="container">
-				<h1 id ="toolsID" class="port">Tools & Languages</h1>
-				<br />
-				<div class="flex">
-					<figure class="ftool">
-						<a href="https://developer.apple.com/xcode/" target="_blank"><img class="tool" src="img/xcode.png" alt=""></a>
-					</figure>
-					<figure class="ftool">
-						<a href="https://firebase.google.com" target="_blank"><img class="tool" src="img/firebase.png" alt=""></a>
-					</figure>
-					<figure class="ftool">
-						<a href="https://www.sketchapp.com" target="_blank"><img class="tool" src="img/sketch.png" alt=""></a>
-					</figure>
-					<figure class="ftool">
-						<a href="https://www.adobe.com/it/products/photoshop.html" target="_blank"><img class="tool" src="img/photoshop.png" alt=""></a>
-					</figure>
-					<figure class="ftool">
-						<a href="https://www.adobe.com/it/products/photoshop-lightroom.html" target="_blank"><img class="tool" src="img/lightroom.png" alt=""></a>
-					</figure>
-					<figure class="ftool">
-						<a href="https://atom.io" target="_blank"><img class="tool" src="img/atom.png" alt=""></a>
-					</figure>
-					<figure class="ftool">
-						<a href="https://github.com" target="_blank"><img class="tool" src="img/github.png" alt=""></a>
-					</figure>
-					<figure class="ftool">
-						<a href="https://developer.apple.com/swift/" target="_blank"><img class="tool" src="img/swift.png" alt=""></a>
-					</figure>
-					<figure class="ftool">
-						<a href="https://www.oracle.com/it/java/" target="_blank"><img class="tool" src="img/java.png" alt=""></a>
-					</figure>
-					<figure class="ftool">
-						<img class="tool" src="img/html.png" alt=""></a>
-					</figure>
-					<figure class="ftool">
-						<a href="http://www.php.net" target="_blank"><img class="tool" src="img/php.png" alt=""></a>
-					</figure>
-					<figure class="ftool">
-						<a href="https://www.javascript.com" target="_blank"><img class="tool" src="img/js.png" alt=""></a>
-					</figure>
-				</div>
-			</div>
-			<br />
-		</section>
-    <section class="contactSection">
-      <div class="container">
-        <!-- edit this h2 and paragraph text here!-->
-        <h2 class="contact">Contact Me</h2>
-        <p class="contact">Whether it's a question or you want to discuss about a project:</p>
-        <div class="flex">
-          <div class="social-media">
-						<a target="_blank" rel="noopener noreferrer" href="https://twitter.com/danielzanchi"><img class="socialicon" src="img/twitter.png"</a>
-						<a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/danielzanchi/"><img class="socialicon" src="img/instagram.png"</a>
-						<a href="mailto:info.danielzachi@gmail.com"><img class="socialicon" src="img/mail.png"</a>
-					</div>
-        </div>
-      </div>
-    </section>
-    <footer>
-      <div class="container">
-        <p class="foot">&copy; Designed with &hearts; by Daniel Zanchi 2019</p>
-      </div>
-    </footer>
-    <script src="js/main.js"></script>
-  </body>
-</html>
+		</div>
+	</section>
+	<br/>
+	<section class="about-me">
+		<div class="container">
+			<h1 id="aboutID" class="port">About Me</h1>
+			<div class="self-pic"></div>
+			<br/>
+			<p>
+				I mainly develop iOS apps in Swift, I made all the design for my apps and i develop websites
+			</p>
+			<p>
+				I'm very curious and I love to improve my knowledge
+			</p><br/>
+		</div>
+	</section>
+	<section class="tools">
+		<div class="container">
+			<h1 id="toolsID" class="port">Tools & Languages</h1>
+			<br/>
+			<div class="flex">
+				<figure class="ftool">
+					<a href="https://developer.apple.com/xcode/" target="_blank"><img class="tool" src="img/xcode.png" alt=""></a>
+				</figure>
+				<figure class="ftool">
+					<a href="https://firebase.google.com" target="_blank"><img class="tool" src="img/firebase.png" alt=""></a>
+				</figure>
+				<figure class="ftool">
+					<a href="https://www.sketchapp.com" target="_blank"><img class="tool" src="img/sketch.png" alt=""></a>
+				</figure>
+				<figure class="ftool">
+					<a href="https://www.adobe.com/it/products/photoshop.html" target="_blank"><img class="tool" src="img/photoshop.png" alt=""></a>
+				</figure>
+				<figure class="ftool">
+					<a href="https://www.adobe.com/it/products/photoshop-lightroom.html" target="_blank"><img class="tool" src="img/lightroom.png" alt=""></a>
+				</figure>
+				<figure class="ftool">
+					<a href="https://atom.io" target="_blank"><img class="tool" src="img/atom.png" alt=""></a>
+				</figure>
+				<figure class="ftool">
+					<a href="https://github.com" target="_blank"><img class="tool" src="img/github.png" alt=""></a>
+				</figure>
+				<figure class="ftool">
+					<a href="https://developer.apple.com/swift/" target="_blank"><img class="tool" src="img/swift.png" alt=""></a>
+				</figure>
+				<figure class="ftool">
+					<a href="https://www.oracle.com/it/java/" target="_blank"><img class="tool" src="img/java.png" alt=""></a>
+				</figure>
+				<figure class="ftool">
+					<img class="tool" src="img/html.png" alt=""></a>
+			</figure>
+			<figure class="ftool">
+				<a href="http://www.php.net" target="_blank"><img class="tool" src="img/php.png" alt=""></a>
+			</figure>
+			<figure class="ftool">
+				<a href="https://www.javascript.com" target="_blank"><img class="tool" src="img/js.png" alt=""></a>
+			</figure>
+		</div>
+	</div>
+	<br/>
+</section>
+<section class="contactSection">
+	<div class="container">
+		<!-- edit this h2 and paragraph text here!-->
+		<h2 class="contact">Contact Me</h2>
+		<p class="contact">Whether it's a question or you want to discuss about a project:</p>
+		<div class="flex">
+			<div class="social-media">
+				<a target="_blank" rel="noopener noreferrer" href="https://twitter.com/danielzanchi"><img class="socialicon" src="img/mail.png" </a> <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/danielzanchi/"> <a href="mailto:info.danielzachi@gmail.com"> </div> </section> <footer> <div class="container"> <p class="foot"> designed="Designed" with="with" &hearts;="&hearts;" by="by" daniel="Daniel" zanchi="Zanchi" 2019</p>="2019</p>" </footer> <script src="js/main.js"><img <img &copy; </script>
+			</body>
+		</html>
