@@ -737,7 +737,8 @@ nav {
 }
 
 .contactSection {
-background-image: linear-gradient(#161616, #3B3B3B);
+/* background-image: linear-gradient(#161616, #3B3B3B); */
+background-color: #3B3B3B;
 padding-bottom: 1em;
 }
 
@@ -1133,4 +1134,29 @@ img.socialicon {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	height: 50px;
 	width: 50px;
+}
+
+section.websites {
+	padding-bottom: 50px;
+background-image: linear-gradient(#161616, #3B3B3B);
+}
+
+h1#website {
+	margin-bottom: 1em;
+	color: #ffff;
+}
+
+a.website.casadigrazia{
+	font-size: 30px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
+	color: #ffd088;
+	transition: all 0.3s ease;
+}
+
+a.website.casadigrazia:hover {
+	/* font-size: 31px; */
+	transform: scale(1.1);
+	color: #ffff;
+	transition: transition: all 0.3s ease;
 }
