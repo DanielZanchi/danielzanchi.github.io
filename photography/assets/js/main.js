@@ -238,7 +238,7 @@
   	08. Portfolio Masonry Activation
   =========================================*/
 
-  $(window).load(function() {
+  $(window).on('load', function() {
     $('.masonary-wrapper').imagesLoaded(function() {
       // filter items on button click
       $('.messonry-button').on('click', 'button', function() {
