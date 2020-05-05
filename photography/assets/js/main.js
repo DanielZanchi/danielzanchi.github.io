@@ -262,11 +262,6 @@
 
   })
 
-  /*===========================
-  	09. Youtub Popup
-  ============================*/
-
-  $('.play__btn').yu2fvl();
 
   /*==================================
   	10. Bg Color
@@ -323,30 +318,5 @@
 
     $(window).trigger('resize');
   }
-
-
-  /*==================================
-  	12. Counter Up
-  ===================================*/
-
-  $('.count').counterUp({
-    delay: 10,
-    time: 1000
-  });
-
-
-  /*==================================
-  	13. Scroll Up Activation
-  =====================================*/
-
-  $.scrollUp({
-    scrollText: '<i class="fa fa-angle-up"></i>',
-    easingType: 'linear',
-    scrollSpeed: 900,
-    animation: 'slide'
-  });
-
-
-
 
 })(jQuery);
