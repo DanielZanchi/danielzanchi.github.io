@@ -1,0 +1,13 @@
+.container {
+  max-width: 100%;
+  background: white;
+  color: black;
+}
+
+.flexible-fontsize {
+  font-size: 70px;
+  line-height: 70px;
+  font-weight: 400 !important;
+  padding: 50px;
+
+}
